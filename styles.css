@@ -1,0 +1,83 @@
+/* General Body Styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Deep black for a hacker-inspired vibe */
+    color: #ffffff; /* White text for high contrast */
+}
+
+/* Container Styling */
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    background: #1a1a1a; /* Slightly lighter black for contrast */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Red glow effect */
+    border-radius: 10px;
+    border: 1px solid #FF0000; /* Bright red border for intensity */
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #FF0000; /* Bright red for bold headings */
+    text-shadow: 0 0 10px #FF0000; /* Neon-like red glow */
+}
+
+/* Text Area Styling */
+textarea, select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333333; /* Subtle borders for structure */
+    border-radius: 5px;
+    background: #1a1a1a; /* Matches the container */
+    color: #ffffff; /* White text for readability */
+    resize: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FF0000; /* Bright red buttons */
+    color: #ffffff; /* White text on buttons */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #CC0000; /* Darker red on hover */
+    box-shadow: 0 0 15px #FF0000; /* Glow effect on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Placeholder for Output Text Area */
+textarea[readonly] {
+    cursor: not-allowed;
+    background: #1a1a1a; /* Matches theme */
+    color: #777777; /* Subtle grey for non-editable text */
+}
+
+/* Dropdown Styling */
+select {
+    cursor: pointer;
+    background: #121212; /* Deep black to blend with the theme */
+    color: #ffffff;
+    border: 1px solid #333333; /* Subtle border for structure */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Neon Line Divider */
+.line-divider {
+    height: 2px;
+    background: linear-gradient(to right, #FF0000, #770000); /* Red gradient effect */
+    border: none;
+    margin: 20px 0;
+}
