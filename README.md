@@ -1,6 +1,6 @@
 # Archcoder - Encoder/Decoder Extension
 
-**Archcoder** is a lightweight Chrome extension for quickly encoding and decoding text in various formats. Designed with a minimal and dark-themed interface, it’s ideal for developers, security professionals, and anyone working with encoded data.
+**Archcoder** is a lightweight, offline encoding and decoding utility with a modern dark UI. Designed for developers, cybersecurity professionals, and CTF players, it offers quick transformation of text across multiple formats in a clean and focused interface.
 
 ---
 
