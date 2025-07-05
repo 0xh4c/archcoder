@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encoder/Decoder</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Encoder/Decoder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css?v=4">
+  <style>
+    html, body {
+      width: 380px;
+      height: 500px;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>HACK4PEACE</h1>
-        <textarea id="inputText" placeholder="Enter your text here"></textarea>
-        <select id="encodingType">
-            <option value="url">URL Encode/Decode</option>
-            <option value="base64">Base64</option>
-            <option value="html">HTML Entity</option>
-            <option value="unicode">Unicode</option>
-            <option value="fullurl">Full URL</option>
-            <option value="hex">Hexadecimal</option>
-            <option value="rot13">ROT13</option>
-            <option value="base32">Base32</option>
-            <option value="md5">MD5</option>
-            <option value="sha1">SHA-1</option>
-            <option value="sha256">SHA-256</option>
-            <option value="ascii">ASCII</option>
-            <option value="binary">Binary</option>
-            <option value="octal">Octal</option>
-            <option value="escape">Escape</option>
-        </select>
-        <button id="encodeButton">Encode</button>
-        <button id="decodeButton">Decode</button>
-        <textarea id="outputText" readonly placeholder="Output will appear here"></textarea>
+  <div class="container">
+    <h1>0xh4c</h1>
+    <textarea id="inputText" placeholder="Enter your text here"></textarea>
+
+    <select id="encodingType">
+      <option value="url">URL Encode/Decode</option>
+      <option value="base64">Base64</option>
+      <option value="html">HTML Entity</option>
+      <option value="unicode">Unicode</option>
+      <option value="hex">Hexadecimal</option>
+      <option value="rot13">ROT13</option>
+    </select>
+
+    <div class="button-group">
+      <button id="encodeButton">Encode</button>
+      <button id="decodeButton">Decode</button>
     </div>
-    <script src="popup.js"></script>
+
+    <textarea id="outputText" readonly placeholder="Output will appear here"></textarea>
+    <button id="copyOutput">📋 Copy Output</button>
+  </div>
+
+  <script src="popup.js"></script>
 </body>
 </html>
