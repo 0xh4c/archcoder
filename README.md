@@ -4,7 +4,7 @@
 
 ---
 
-## 🔑 Features
+##  Features
 
 - URL Encode / Decode
 - Base64 Encode / Decode
@@ -17,7 +17,7 @@
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. Download or clone this repository.
 2. Open Chrome and go to `chrome://extensions/`.
@@ -26,7 +26,7 @@
 
 ---
 
-## 📁 Files Overview
+##  Files Overview
 
 - `manifest.json` – Chrome extension configuration  
 - `popup.html` – Extension interface  
@@ -36,7 +36,7 @@
 
 ---
 
-## ✅ Supported Formats
+##  Supported Formats
 -----------------------------------
 | Format       | Encode | Decode  |
 |--------------|--------|---------|
